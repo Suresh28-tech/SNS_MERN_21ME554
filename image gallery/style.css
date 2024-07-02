@@ -1,0 +1,45 @@
+*{
+    background-color: rgb(31, 31, 33);
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin: 70px;
+}
+
+h1:hover{
+    color: rgba(82, 234, 41, 0.54);
+    transform: scale(1.3);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px;
+    justify-content: center;
+}
+
+.parent div{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    border-radius: 21px;
+    border: 3px whitesmoke solid;
+    /* overflow: hidden; */
+}
+
+.parent div img{
+    border-radius: 20px;
+    filter: blur(10px);
+    transition: 0.5s;
+}
+
+.parent div img:hover{
+    transform: scale(1.3);
+    filter: none;
+    cursor: pointer;
+}
